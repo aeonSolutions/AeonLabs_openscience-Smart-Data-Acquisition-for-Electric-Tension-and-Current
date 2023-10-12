@@ -22,8 +22,9 @@ This is the repository for revision "11-2023" of the 16-bit Smart DAQ Device wit
 
 
 ### Circuit Schematic
+The circuit schematic for this smart DAQ can be found on the folder "circuit schematic" [here](https://github.com/aeonSolutions/AeonLabs_openscience-Smart-Data-Acquisition-for-Electric-Tension-and-Current/tree/main/Circuit%20Schematic). 
 <p align="center">
-   <img height="150px" src="https://github.com/aeonSolutions/AeonLabs_openscience-Smart-Data-Acquisition-for-Electric-Tension-and-Current/blob/main/media/circuit_schematic.png">
+   <img height="250px" src="https://github.com/aeonSolutions/AeonLabs_openscience-Smart-Data-Acquisition-for-Electric-Tension-and-Current/blob/main/media/circuit_schematic.png">
 </p>
 
 <br>
