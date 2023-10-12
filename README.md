@@ -20,6 +20,12 @@
 # Smart Data Acquisition for Electric Tension and Current
 This is the repository for revision "11-2023" of the 16-bit Smart DAQ Device with a unique data fingerprint able to do experimental data upload to any data repository. This data acquisition device is suited for electric current measurements (amperage) and also electric tension (voltage).
 
+
+### Circuit Schematic
+<p align="center">
+   <img height="150px" src="https://github.com/aeonSolutions/AeonLabs_openscience-Smart-Data-Acquisition-for-Electric-Tension-and-Current/blob/main/media/circuit_schematic.png">
+</p>
+
 <br>
 
 ### Q & A
