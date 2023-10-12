@@ -22,6 +22,12 @@ This is the repository for revision "11-2023" of the 16-bit Smart DAQ Device wit
 
 <br>
 
+### Q & A
+If you have a question and looking for an answer, there's a **Discussions** chat on the menu above.  Here's the [link](https://github.com/aeonSolutions/AeonLabs_openscience-Smart-Data-Acquisition-for-Electric-Tension-and-Current/discussions). You can post any quwstion related to any of the Smart Data Acquisition devices and Experimental Setups.
+
+<br>
+
+
 ### Known Experimental Tests
 This smart data acquisition devices is compatible for the following laboratory experimental tests:
 
