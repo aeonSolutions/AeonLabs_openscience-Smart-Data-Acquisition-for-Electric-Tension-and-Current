@@ -22,8 +22,8 @@ This is the repository for revision "11-2023" of the 16-bit Smart DAQ Device wit
 
 
 <p align="center">
-   <img height="150px" src="https://github.com/aeonSolutions/AeonLabs_openscience-Smart-Data-Acquisition-for-Electric-Tension-and-Current/blob/main/media/pcb_front_ina237.png">
-   <img height="150px" src="https://github.com/aeonSolutions/AeonLabs_openscience-Smart-Data-Acquisition-for-Electric-Tension-and-Current/blob/main/media/pcb_back_ina237.png">
+   <img height="250px" src="https://github.com/aeonSolutions/AeonLabs_openscience-Smart-Data-Acquisition-for-Electric-Tension-and-Current/blob/main/media/pcb_front_ina237.png">
+   <img height="250px" src="https://github.com/aeonSolutions/AeonLabs_openscience-Smart-Data-Acquisition-for-Electric-Tension-and-Current/blob/main/media/pcb_back_ina237.png">
 </p>
 
 <br>
