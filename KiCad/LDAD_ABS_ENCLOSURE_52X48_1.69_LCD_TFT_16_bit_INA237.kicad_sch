@@ -5325,13 +5325,6 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "ADC_VOUT" (shape input) (at 543.1536 100.3808 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 3066a6a9-d56a-4a54-aa14-00776ea6c48e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 530.855 100.3808 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "GND" (shape input) (at 164.6428 340.487 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 311e5c1a-37fe-4ad7-9590-b9de27b1fc9e)
@@ -5469,6 +5462,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5bb141ed-781d-41d0-bba3-736c571c6527)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 164.0046 380.0192 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "INA237_ALRT_IO33" (shape input) (at 368.8334 259.6896 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 5bb928a7-291d-4834-8740-2b916f070c84)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 389.1148 259.6896 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -5920,13 +5920,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "ADC_A0" (shape input) (at 543.1536 95.3008 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid c5595077-bfe5-4831-833e-c105485b13ae)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 533.2741 95.3008 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "VOLTAGE_REF_IO07" (shape input) (at 306.6034 252.0696 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c71733cd-64d2-41ab-b92d-028085ed618a)
@@ -5948,10 +5941,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "TEMT6000_IO33" (shape input) (at 368.8334 259.6896 0) (fields_autoplaced)
+  (global_label "TEMT6000_IO35" (shape input) (at 368.8334 264.7696 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid cb933b47-b20e-422f-84f2-0452ba9513ae)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 386.4347 259.6896 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 386.5141 264.7696 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -6039,10 +6032,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "TEMT6000_IO33" (shape input) (at 340.8934 97.9424 0) (fields_autoplaced)
+  (global_label "TEMT6000_IO35" (shape input) (at 340.8934 97.9424 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid df0e40b8-0bc0-43eb-98d6-c32d22e9f445)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 358.4947 97.9424 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 358.5741 97.9424 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -6065,13 +6058,6 @@
     (uuid e08c0113-5001-414d-8fc5-ba65776383e4)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 560.5652 282.8512 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-  )
-  (global_label "PLUG_PWR_3V3_EN_IO38" (shape input) (at 368.8334 262.2296 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid e2f63426-4998-464a-88e7-01f0ace42113)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 394.841 262.2296 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "TXD0" (shape input) (at 287.6804 278.7396 180) (fields_autoplaced)
@@ -6137,10 +6123,10 @@
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
   )
-  (global_label "INA237_ALRT_IO" (shape input) (at 450.9516 106.9594 180) (fields_autoplaced)
+  (global_label "INA237_ALRT_IO33" (shape input) (at 450.9516 106.9594 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f95d0d2b-36d2-4298-9fed-91398f95186e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 433.0892 106.9594 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 430.6702 106.9594 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -6196,7 +6182,7 @@
     (pin "6" (uuid 5a6f0939-f0ed-4581-bdf7-149b06e56970))
     (pin "7" (uuid a45969d3-046b-4638-ab20-6ccc81ffb829))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "AUR1") (unit 1)
         )
@@ -6226,7 +6212,7 @@
           (reference "#PWR037") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR036") (unit 1)
         )
@@ -6253,7 +6239,7 @@
     (pin "2" (uuid 954a038d-0f42-4ccd-b6c1-2375940e533e))
     (pin "3" (uuid f1589a67-fbcf-4d71-91b3-d264f8e7e05f))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U1") (unit 1)
         )
@@ -6288,7 +6274,7 @@
           (reference "#PWR063") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR02") (unit 1)
         )
@@ -6319,7 +6305,7 @@
           (reference "EC10") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_VDD_3_C4") (unit 1)
         )
@@ -6349,7 +6335,7 @@
           (reference "#PWR067") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR050") (unit 1)
         )
@@ -6375,7 +6361,7 @@
     (pin "1" (uuid 329c2032-dabd-4c29-9f2f-652bdc262573))
     (pin "2" (uuid 5d972afa-0c97-48ed-b33d-3474b69d808b))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "PWR_PLUG1") (unit 1)
         )
@@ -6405,7 +6391,7 @@
           (reference "#PWR0110") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR08") (unit 1)
         )
@@ -6441,7 +6427,7 @@
           (reference "ATH20_C2") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "ATH20_C2") (unit 1)
         )
@@ -6471,7 +6457,7 @@
           (reference "#PWR0106") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR06") (unit 1)
         )
@@ -6508,7 +6494,7 @@
           (reference "EPS1") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "EPS1") (unit 1)
         )
@@ -6539,7 +6525,7 @@
           (reference "EC15") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_XTAL40_C1") (unit 1)
         )
@@ -6564,7 +6550,7 @@
     )
     (pin "1" (uuid 4bef0a3e-a301-412d-8191-250f444820a8))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0154") (unit 1)
         )
@@ -6594,7 +6580,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR041") (unit 1)
         )
@@ -6636,7 +6622,7 @@
     (pin "5" (uuid 949e2ae4-4ed2-4889-b455-a51ff0eac8ce))
     (pin "6" (uuid 74ca8c03-a1ad-4cf3-ab7a-57e2f90c98af))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U4") (unit 1)
         )
@@ -6667,7 +6653,7 @@
           (reference "EC8") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_VDD_RTC_C1") (unit 1)
         )
@@ -6692,7 +6678,7 @@
     )
     (pin "1" (uuid ec71fc14-5958-43eb-939d-af00b2f7606f))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0136") (unit 1)
         )
@@ -6722,7 +6708,7 @@
           (reference "#PWR0108") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR011") (unit 1)
         )
@@ -6752,7 +6738,7 @@
           (reference "#PWR0136") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR026") (unit 1)
         )
@@ -6782,7 +6768,7 @@
           (reference "#PWR0133") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR021") (unit 1)
         )
@@ -6816,7 +6802,7 @@
     (pin "8" (uuid 2da38bdb-ab2a-4b5d-99a6-7b814bbade0b))
     (pin "9" (uuid d82dadfb-1620-4820-bd12-30ca96239ca2))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U5") (unit 1)
         )
@@ -6847,7 +6833,7 @@
           (reference "EC4") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_VDDA_C2") (unit 1)
         )
@@ -6873,7 +6859,7 @@
     (pin "1" (uuid a76a5c3c-5dc0-440a-bfbe-8b33295459bb))
     (pin "2" (uuid d9d1d293-ed79-4fd3-9dfa-27d375be28fc))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "CN3065_C2") (unit 1)
         )
@@ -6899,7 +6885,7 @@
     (pin "1" (uuid 1fd1179a-b3be-4314-b93c-478bb87a1f18))
     (pin "2" (uuid 87f6c46c-4ea3-48a1-ab4f-1856b940f44e))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "AUR_R2") (unit 1)
         )
@@ -6930,7 +6916,7 @@
           (reference "ER1") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_RTS_R1") (unit 1)
         )
@@ -6956,7 +6942,7 @@
     (pin "1" (uuid c8d4dc9b-e90c-47ec-b6d1-2f9a357a1dbe))
     (pin "2" (uuid 6acedf74-2ec9-484e-92f2-b90bd461bf93))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "VOLTAGE_REF_C2") (unit 1)
         )
@@ -6987,7 +6973,7 @@
           (reference "ER3") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_DTR_R1") (unit 1)
         )
@@ -7012,7 +6998,7 @@
     )
     (pin "1" (uuid 4d210149-58e9-4a5b-bd36-4d7cccf545f5))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0150") (unit 1)
         )
@@ -7043,7 +7029,7 @@
           (reference "PSR1") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "PSRAM_R1") (unit 1)
         )
@@ -7074,7 +7060,7 @@
           (reference "EC5") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_VDD_3_C2") (unit 1)
         )
@@ -7104,7 +7090,7 @@
           (reference "#PWR0115") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR016") (unit 1)
         )
@@ -7130,7 +7116,7 @@
     (pin "1" (uuid deecc0cd-b771-499c-b44a-000dca0f27c5))
     (pin "2" (uuid a327f90a-7e7a-4480-9d89-d20ac24d7d69))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "I2C_SDA_R1") (unit 1)
         )
@@ -7160,7 +7146,7 @@
           (reference "#PWR0138") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR029") (unit 1)
         )
@@ -7191,7 +7177,7 @@
           (reference "EC13") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_SPI_C2") (unit 1)
         )
@@ -7241,7 +7227,7 @@
           (reference "J3") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_LNA_ANT2") (unit 1)
         )
@@ -7267,7 +7253,7 @@
     (pin "1" (uuid a6fef2dd-9d03-44a7-8f39-a8dccc0f5b3c))
     (pin "2" (uuid 397639b9-d5f9-462b-b0ed-820932f2e2ac))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "CN3965_C1") (unit 1)
         )
@@ -7293,7 +7279,7 @@
     (pin "1" (uuid d620070a-4ac0-421a-9581-874d4fddfc50))
     (pin "2" (uuid f1728dd1-e347-4061-ab67-d1395737e8cc))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "BAT_FUSE1") (unit 1)
         )
@@ -7319,7 +7305,7 @@
     (pin "1" (uuid 113ee26b-4cec-429d-8861-7f821c4b2e44))
     (pin "2" (uuid 3d106b0b-fe37-4315-a4f4-28eae588fd58))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "DMP1045_SCHOT1") (unit 1)
         )
@@ -7349,7 +7335,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR037") (unit 1)
         )
@@ -7374,7 +7360,7 @@
     )
     (pin "1" (uuid acc37c53-544d-4ed4-816c-82bc55d9ec3e))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "TP2") (unit 1)
         )
@@ -7404,7 +7390,7 @@
           (reference "#PWR0149") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR025") (unit 1)
         )
@@ -7435,7 +7421,7 @@
           (reference "EC12") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_XTAL32_C2") (unit 1)
         )
@@ -7465,7 +7451,7 @@
           (reference "#PWR0112") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR017") (unit 1)
         )
@@ -7491,7 +7477,7 @@
     (pin "1" (uuid 74537600-c71d-4306-b005-2ec8eaf32714))
     (pin "2" (uuid e6a96257-c669-4f24-a95a-e66b92bb0203))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "BAT_SENSE_R2") (unit 1)
         )
@@ -7521,7 +7507,7 @@
           (reference "#PWR05") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR034") (unit 1)
         )
@@ -7552,7 +7538,7 @@
           (reference "L1") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_VDD_L1") (unit 1)
         )
@@ -7601,7 +7587,7 @@
           (reference "MTRT1") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "MTRT1") (unit 1)
         )
@@ -7632,7 +7618,7 @@
           (reference "EC14") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_XTAL32_C1") (unit 1)
         )
@@ -7662,7 +7648,7 @@
           (reference "#PWR0142") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR019") (unit 1)
         )
@@ -7687,7 +7673,7 @@
     )
     (pin "1" (uuid cd267e98-2315-4a69-85bc-69720ac45be2))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0140") (unit 1)
         )
@@ -7712,39 +7698,9 @@
     )
     (pin "1" (uuid 0a334a3d-9ffa-4d31-8db6-18c192235f31))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR020") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GNDD") (at 543.1536 97.8408 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5e150c1b-8e89-483e-a9b4-d4ec3e80e00e)
-    (property "Reference" "#PWR034" (at 536.8036 97.8408 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDD" (at 539.8008 97.8408 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 543.1536 97.8408 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 543.1536 97.8408 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 601c24f5-d888-4bf0-be61-49024ac2be01))
-    (instances
-      (project "Silent Smoke & Fire Monitor Device"
-        (path "/e5ffaade-a2d0-4fcf-8f04-7af6bee9b94c"
-          (reference "#PWR034") (unit 1)
-        )
-      )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -7767,7 +7723,7 @@
     )
     (pin "1" (uuid 2115f606-6f66-40eb-95af-93d285420339))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0104") (unit 1)
         )
@@ -7798,7 +7754,7 @@
           (reference "EL1") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_LNA_l1") (unit 1)
         )
@@ -7824,7 +7780,7 @@
     (pin "1" (uuid 64eb62a3-3907-48f5-8cbb-5917a1a72dc5))
     (pin "2" (uuid 93775b9c-0aa9-43cf-a344-68c1d7efaa7a))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "AUR_C2") (unit 1)
         )
@@ -7855,7 +7811,7 @@
           (reference "AUC1") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "ATSHA_C1") (unit 1)
         )
@@ -7885,7 +7841,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR015") (unit 1)
         )
@@ -7910,7 +7866,7 @@
     )
     (pin "1" (uuid 26902dcc-9e51-498e-8cd7-85a8b469dd5d))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0153") (unit 1)
         )
@@ -7948,7 +7904,7 @@
     (pin "8" (uuid d8a7031a-3c0e-4b1b-974e-9d389a9f9518))
     (pin "9" (uuid 86f45a26-670f-4f9f-9a8b-c679c1688ce3))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "IMU1") (unit 1)
         )
@@ -7973,7 +7929,7 @@
     )
     (pin "1" (uuid 75e4cbc7-f4e7-4ee5-bdd4-4207e53b8710))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0103") (unit 1)
         )
@@ -8001,7 +7957,7 @@
     (pin "3" (uuid 5d2667c2-0e56-4aad-9111-81c444be82e6))
     (pin "4" (uuid 287d83c4-feb0-47a5-b746-8213a1da93b6))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "I2C_PLUG1") (unit 1)
         )
@@ -8027,7 +7983,7 @@
     (pin "1" (uuid a27bed06-6dc2-42f2-adc9-609c33cd30df))
     (pin "2" (uuid 6c913c32-290a-4991-bd93-53c5682724a5))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "USB_PLYG_R2") (unit 1)
         )
@@ -8058,7 +8014,7 @@
           (reference "EC6") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_LNA_C1") (unit 1)
         )
@@ -8088,7 +8044,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR046") (unit 1)
         )
@@ -8118,7 +8074,7 @@
           (reference "#PWR06") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR035") (unit 1)
         )
@@ -8144,7 +8100,7 @@
     (pin "1" (uuid 8563dc6c-432e-437e-8f79-0a8336663d02))
     (pin "2" (uuid b962dbc0-293f-41da-b722-e62d4415b7c3))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "AUR_R1") (unit 1)
         )
@@ -8174,7 +8130,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR042") (unit 1)
         )
@@ -8204,7 +8160,7 @@
           (reference "#PWR0148") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR022") (unit 1)
         )
@@ -8290,7 +8246,7 @@
           (reference "ESP32S1") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "ESP32S1") (unit 1)
         )
@@ -8324,7 +8280,7 @@
           (reference "ANT1") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_LNA_ANT1") (unit 1)
         )
@@ -8349,7 +8305,7 @@
     )
     (pin "1" (uuid 2d3dc256-9274-483b-9af0-f91943ff9936))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR018") (unit 1)
         )
@@ -8374,7 +8330,7 @@
     )
     (pin "1" (uuid 87fdbfd1-2b53-4c1f-8593-921d7bf96972))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "TP1") (unit 1)
         )
@@ -8410,7 +8366,7 @@
           (reference "MTRR1") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "MTRR1") (unit 1)
         )
@@ -8435,7 +8391,7 @@
     )
     (pin "1" (uuid 385f9705-4e0e-4f5c-bbb4-4aab3991eeb3))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0102") (unit 1)
         )
@@ -8461,7 +8417,7 @@
     (pin "1" (uuid 1adc02e2-32ff-44ab-9f87-d2d2d96d362a))
     (pin "2" (uuid 20eb2888-28aa-418b-bbaa-63fc60b137af))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "CN3065_STDBY_LED1") (unit 1)
         )
@@ -8487,7 +8443,7 @@
     (pin "1" (uuid 97e19f47-8135-4aac-a098-30691ee17d90))
     (pin "2" (uuid 13fd8ca6-44d0-4503-9f0c-615a13a2fc6d))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "PWR_FUSE1") (unit 1)
         )
@@ -8517,7 +8473,7 @@
           (reference "#PWR0134") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR031") (unit 1)
         )
@@ -8548,7 +8504,7 @@
           (reference "EC16") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_SPI_C1") (unit 1)
         )
@@ -8578,7 +8534,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR038") (unit 1)
         )
@@ -8604,7 +8560,7 @@
     (pin "1" (uuid 05c4f804-c48b-4740-be80-89af17f1de51))
     (pin "2" (uuid e2fb7cf4-23f6-4d2e-85cc-2a9e9aeb0d75))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "AUR_C1") (unit 1)
         )
@@ -8656,7 +8612,7 @@
     (pin "A9" (uuid 0fcc974f-92d7-4ecf-b142-9535ccde9209))
     (pin "B12" (uuid 66251455-5f42-40ae-8bba-6dd522da1eb6))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J1") (unit 1)
         )
@@ -8687,7 +8643,7 @@
           (reference "EC2") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_VDDA_C1") (unit 1)
         )
@@ -8715,7 +8671,7 @@
     (pin "3" (uuid d80c2adb-c2af-46c0-a23b-787b6166ed35))
     (pin "4" (uuid 79bbb043-12c9-4f53-a2d8-3d329901331d))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "LED1") (unit 1)
         )
@@ -8740,7 +8696,7 @@
     )
     (pin "1" (uuid fa21beeb-8cce-4128-8fd6-9f39e707bd4a))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "TP3") (unit 1)
         )
@@ -8765,7 +8721,7 @@
     )
     (pin "1" (uuid a7ad6977-b3a0-49c0-a4fb-55d36faaa070))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0147") (unit 1)
         )
@@ -8795,7 +8751,7 @@
           (reference "#PWR01") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR01") (unit 1)
         )
@@ -8825,7 +8781,7 @@
           (reference "J6") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "ESP32_SHIELD1") (unit 1)
         )
@@ -8861,7 +8817,7 @@
           (reference "J1") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "JICSP1") (unit 1)
         )
@@ -8899,7 +8855,7 @@
           (reference "IC_ENS1") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "IC_ENS1") (unit 1)
         )
@@ -8925,7 +8881,7 @@
     (pin "1" (uuid 8c0ecdcc-0f0a-46a2-9a0b-328868e1300f))
     (pin "2" (uuid 3c78b360-dc83-4c86-aeee-051f3a582724))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "CN3065_R1") (unit 1)
         )
@@ -8956,7 +8912,7 @@
           (reference "EC7") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_VDD_3_C3") (unit 1)
         )
@@ -8986,7 +8942,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR039") (unit 1)
         )
@@ -9019,7 +8975,7 @@
           (reference "ECY2") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_XTAL40_1") (unit 1)
         )
@@ -9049,7 +9005,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR040") (unit 1)
         )
@@ -9074,7 +9030,7 @@
     )
     (pin "1" (uuid 9ffd59c3-c0b1-4772-ad8a-8f027817bb75))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0139") (unit 1)
         )
@@ -9110,7 +9066,7 @@
     (pin "8" (uuid d37a3cfd-285a-4022-8387-3160015733ca))
     (pin "9" (uuid be351a70-c812-4801-bdee-ca3f3fce4ed9))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "LCD1") (unit 1)
         )
@@ -9136,7 +9092,7 @@
     (pin "1" (uuid d6bc3f46-f764-44f1-99af-4adb578bdf24))
     (pin "2" (uuid 68637027-d9ca-46b5-ad2c-4064a7e438bb))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "LR1") (unit 1)
         )
@@ -9167,7 +9123,7 @@
           (reference "EC3") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_VDD_3_C1") (unit 1)
         )
@@ -9193,7 +9149,7 @@
     (pin "1" (uuid 5e02df82-59aa-4478-a90a-3d13e2c2dc52))
     (pin "2" (uuid f64c955c-0d55-45d2-93ac-011738cd4ef1))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "INA4_C1") (unit 1)
         )
@@ -9223,7 +9179,7 @@
           (reference "#PWR0140") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR027") (unit 1)
         )
@@ -9253,7 +9209,7 @@
           (reference "#PWR0135") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR030") (unit 1)
         )
@@ -9284,7 +9240,7 @@
           (reference "EC9") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_LNA_C2") (unit 1)
         )
@@ -9309,7 +9265,7 @@
     )
     (pin "1" (uuid 7ca86c99-d436-4c83-97b5-5583bff9e28f))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR04") (unit 1)
         )
@@ -9334,7 +9290,7 @@
     )
     (pin "1" (uuid ec61d72f-99ca-4321-b997-93bbc47b18bb))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0161") (unit 1)
         )
@@ -9365,7 +9321,7 @@
           (reference "TMPR1") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "TMPR1") (unit 1)
         )
@@ -9395,7 +9351,7 @@
           (reference "#PWR0107") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR010") (unit 1)
         )
@@ -9421,7 +9377,7 @@
     (pin "1" (uuid 0c8dac9c-83f2-4313-a717-df02b85a32eb))
     (pin "2" (uuid 460df036-7f09-40ae-83aa-f62eb6b64b50))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "VOLTAGE_REF_C1") (unit 1)
         )
@@ -9451,7 +9407,7 @@
           (reference "#PWR052") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR051") (unit 1)
         )
@@ -9478,7 +9434,7 @@
     (pin "2" (uuid 50017436-6002-4a8c-98d9-0b296fa8b552))
     (pin "3" (uuid 15c4989b-90cf-4d35-ae74-785fd3f393bc))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "ExtSWBAT_PLUG2") (unit 1)
         )
@@ -9508,7 +9464,7 @@
           (reference "#PWR0109") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR09") (unit 1)
         )
@@ -9534,7 +9490,7 @@
     (pin "1" (uuid b8604c79-0359-4405-9d49-01a09295fbac))
     (pin "2" (uuid caeef425-df15-4991-8105-c96a80dced53))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "USB_PLUG_R3") (unit 1)
         )
@@ -9560,7 +9516,7 @@
     (pin "COLLECTOR" (uuid 56fd80b6-b582-4b96-a4b1-4f7149e4458c))
     (pin "EMITTER" (uuid 1db821ab-7d5b-4207-a9a9-66bd9053c86e))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U6") (unit 1)
         )
@@ -9586,7 +9542,7 @@
     (pin "1" (uuid b01428ff-d28d-40c1-b225-1c53bd566afd))
     (pin "2" (uuid 8a27e150-a041-45bf-aeff-68d71a97b920))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "DMP1045_R1") (unit 1)
         )
@@ -9617,7 +9573,7 @@
           (reference "ER2") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "ER1") (unit 1)
         )
@@ -9647,7 +9603,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR043") (unit 1)
         )
@@ -9672,7 +9628,7 @@
     )
     (pin "1" (uuid 2bcb542b-d78e-40b2-b4cf-28bff6340ab1))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0149") (unit 1)
         )
@@ -9697,7 +9653,7 @@
     )
     (pin "1" (uuid cab218ba-c1f0-4611-937f-9dafb8abca62))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0159") (unit 1)
         )
@@ -9727,7 +9683,7 @@
           (reference "#PWR0113") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR012") (unit 1)
         )
@@ -9758,7 +9714,7 @@
           (reference "EC1") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_RTS_C1") (unit 1)
         )
@@ -9783,7 +9739,7 @@
     )
     (pin "1" (uuid 1c889043-2cc0-42f9-88c6-a37a96443aca))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0155") (unit 1)
         )
@@ -9813,7 +9769,7 @@
           (reference "#PWR062") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR054") (unit 1)
         )
@@ -9843,7 +9799,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR048") (unit 1)
         )
@@ -9869,7 +9825,7 @@
     (pin "1" (uuid cfb1050d-80e1-475f-bd4c-d4b32aa80f8d))
     (pin "2" (uuid 48baa994-4686-4629-a721-54c83bbd4f43))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "I2C_SCL_R1") (unit 1)
         )
@@ -9893,7 +9849,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#LOGO1") (unit 1)
         )
@@ -9923,7 +9879,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR045") (unit 1)
         )
@@ -9953,7 +9909,7 @@
           (reference "#PWR0139") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR024") (unit 1)
         )
@@ -9983,7 +9939,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR032") (unit 1)
         )
@@ -10008,7 +9964,7 @@
     )
     (pin "1" (uuid 3d1cb030-521c-4781-ad9c-fe81144d5313))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0138") (unit 1)
         )
@@ -10041,7 +9997,7 @@
     (pin "8" (uuid 88d7b400-ea71-4413-bd8e-68ba8ebf86d5))
     (pin "9" (uuid a43bab3a-3eee-419d-a5b1-326def8c28d0))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U3") (unit 1)
         )
@@ -10071,7 +10027,7 @@
           (reference "#PWR0147") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR028") (unit 1)
         )
@@ -10101,7 +10057,7 @@
           (reference "#PWR0111") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR013") (unit 1)
         )
@@ -10127,36 +10083,9 @@
     (pin "1" (uuid 294d764d-a138-4e62-b8da-2e4357cdf734))
     (pin "2" (uuid aa2a4cc7-16a4-4db8-b2cf-5882d70c0ed0))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "USB_PLUG_R1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x03_Female") (at 548.2336 97.8408 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid dd236cb4-cfe7-44c2-a75c-8afddd1b28cb)
-    (property "Reference" "ExtSW1" (at 548.1574 93.0148 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x03_Female" (at 550.4434 100.9904 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal" (at 548.2336 97.8408 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 548.2336 97.8408 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cf8e3242-a745-4727-8bc3-f812d8af2a40))
-    (pin "2" (uuid 9a793dff-687b-4f2f-b9e2-54ee16df6a89))
-    (pin "3" (uuid f115a366-c93f-4ea2-9f43-e68151fdab3a))
-    (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "ExtSW1") (unit 1)
         )
       )
     )
@@ -10187,7 +10116,7 @@
           (reference "ECY1") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_XTAL32_1") (unit 1)
         )
@@ -10212,7 +10141,7 @@
     )
     (pin "1" (uuid d84f74e9-51f1-452b-af04-70503c94b3ff))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0101") (unit 1)
         )
@@ -10242,7 +10171,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR047") (unit 1)
         )
@@ -10280,7 +10209,7 @@
           (reference "ESP_FLASH2") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "ESP_FLASH1") (unit 1)
         )
@@ -10310,7 +10239,7 @@
           (reference "#PWR0141") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR014") (unit 1)
         )
@@ -10340,7 +10269,7 @@
           (reference "#PWR0137") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR023") (unit 1)
         )
@@ -10370,7 +10299,7 @@
           (reference "#PWR069") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR049") (unit 1)
         )
@@ -10395,7 +10324,7 @@
     )
     (pin "1" (uuid 6dd2a142-7dc7-4c18-b4ec-8961baf2290e))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0160") (unit 1)
         )
@@ -10468,7 +10397,7 @@
           (reference "U5") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U7") (unit 1)
         )
@@ -10499,7 +10428,7 @@
           (reference "EC11") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_VDD_CPU_C1") (unit 1)
         )
@@ -10542,7 +10471,7 @@
           (reference "U1") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U2") (unit 1)
         )
@@ -10572,7 +10501,7 @@
           (reference "#PWR064") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR052") (unit 1)
         )
@@ -10602,7 +10531,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR05") (unit 1)
         )
@@ -10632,7 +10561,7 @@
           (reference "#PWR02") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR07") (unit 1)
         )
@@ -10663,7 +10592,7 @@
           (reference "EC17") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_XTAL40_C2") (unit 1)
         )
@@ -10702,7 +10631,7 @@
     (pin "2" (uuid 1120c748-8ed7-4894-ad37-57a7c86b17cb))
     (pin "3" (uuid d5482449-bfa9-40d8-aec5-c9b55bb8cbf1))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "DMP1045U_1") (unit 1)
         )
@@ -10727,7 +10656,7 @@
     )
     (pin "1" (uuid 883f5c9e-55c3-4b6a-9063-6a90cee84aff))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0137") (unit 1)
         )
@@ -10762,7 +10691,7 @@
           (reference "#PWR065") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR03") (unit 1)
         )
@@ -10788,7 +10717,7 @@
     (pin "1" (uuid 38f4c9fb-dcab-4c47-b311-20ffa79dce67))
     (pin "2" (uuid 53353c54-d136-4a4b-a57c-c1521fe3d490))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "BAT_SENSE_R1") (unit 1)
         )
@@ -10819,7 +10748,7 @@
           (reference "ER2") (unit 1)
         )
       )
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "E_UART_TX_1") (unit 1)
         )
@@ -10845,7 +10774,7 @@
     (pin "1" (uuid 16305419-bb9d-4f86-b12d-3e051008ef22))
     (pin "2" (uuid f71c182d-9baf-4c59-bb7f-7d21fa470d11))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "AUR_l1") (unit 1)
         )
@@ -10870,7 +10799,7 @@
     )
     (pin "1" (uuid b91722c2-47af-4365-9bd1-7198592262a8))
     (instances
-      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711"
+      (project "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0151") (unit 1)
         )

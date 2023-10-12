@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -64,11 +64,11 @@
       35,
       36
     ],
-    "visible_layers": "7fdbfbf_80000001",
+    "visible_layers": "7fdbfff_80000001",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_ADS711.kicad_prl",
+    "filename": "LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237.kicad_prl",
     "version": 3
   },
   "project": {
