@@ -18,7 +18,7 @@
 <br>
 
 # Smart Data Acquisition for Electric Tension and Current
-This is the repository for revision "11-2023" of the 16-bit Smart DAQ Device with a unique data fingerprint able to do experimental data upload to any data repository. This data acquisition device has oboard the ACS711 IC and is suited for electric current measurements (amperage) and also electric tension (voltage). See the datasheet of this sensor [here](https://octopart.com/datasheet/acs711elctr-25ab-t-allegro+microsystems-38945930).
+This is the repository for revision "11-2023" of the 16-bit Smart DAQ Device with a unique data fingerprint able to do experimental data upload to any data repository. This data acquisition device has oboard the INA237 IC and is suited for electric current measurements (amperage) and also electric tension (voltage). See the datasheet of this sensor [here](https://www.ti.com/product/INA237).
 
 <br>
 
