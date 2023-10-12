@@ -23,6 +23,18 @@
 # Smart Data Acquisition for Electric Tension and Current
 This is the repository for revision "11-2023" of the 16-bit Smart DAQ Device with a unique data fingerprint able to do experimental data upload to any data repository. This data acquisition device is suited for electric current measurements (amperage) and also electric tension (voltage).
 
+<br>
+
+### Known Experimental Tests
+This smart data acquisition devices is compatible for the following laboratory experimental tests:
+
+- [NT Build 492](http://www.nordtest.info/wp/1999/11/21/concrete-mortar-and-cement-based-repair-materials-chloride-migration-coefficient-from-non-steady-state-migration-experiments-nt-build-492/): Concrete, mortar and cement-based repair materials: Chloride migration coefficient from non-steady-state migration experiments
+- others ...
+
+
+<br>
+<br>
+ 
 ## Compatibility
 
 <p align="center">
