@@ -12,9 +12,6 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat&label=Contributions&colorA=red&colorB=black	)](#)
 [<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" data-canonical-src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="30" />](https://www.buymeacoffee.com/migueltomas)
 
-<p align="center">
-   <img src="https://github.com/aeonSolutions/Open-Scientific-Research/blob/main/media/open_science_lab.png" height="300">
-</p>
 
 [PCB-Prototyping-Catalogue](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue)  >>  [Laboratory Automation](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/tree/main/Laboratory%20Automation)  >>  Smart Data Acquisition for Electric Tension and Current
 
@@ -29,6 +26,12 @@ This is the repository for revision "11-2023" of the 16-bit Smart DAQ Device wit
 This smart data acquisition devices is compatible for the following laboratory experimental tests:
 
 - [NT Build 492](http://www.nordtest.info/wp/1999/11/21/concrete-mortar-and-cement-based-repair-materials-chloride-migration-coefficient-from-non-steady-state-migration-experiments-nt-build-492/): Concrete, mortar and cement-based repair materials: Chloride migration coefficient from non-steady-state migration experiments
+
+<p align="center">
+   <img height="150px" src="https://github.com/aeonSolutions/AeonLabs_openscience-Smart-Data-Acquisition-for-Electric-Tension-and-Current/blob/main/media/nt_build_492_testing.jpeg">
+   <img height="150px" src="https://github.com/aeonSolutions/AeonLabs_openscience-Smart-Data-Acquisition-for-Electric-Tension-and-Current/blob/main/media/chloride_test_specimens.jpeg">
+</p>
+  
 - others ...
 
 
