@@ -18,7 +18,7 @@
 <br>
 
 # Smart Data Acquisition for Electric Tension and Current
-This is the repository for revision "11-2023" of the 16-bit Smart DAQ Device with a unique data fingerprint able to do experimental data upload to any data repository. This data acquisition device has oboard the INA237 IC and is suited for electric current measurements (amperage) and also electric tension (voltage). See the datasheet of this sensor [here](https://www.ti.com/product/INA237). This IC from Texas Instruments is an ultra-precise digital power monitor with a 16-bit delta-sigma ADC specifically designed for current-sensing applications with common-mode voltage support from –0.3 V to +85 V.
+This is the repository for revision "11-2023" of the 16-bit Smart DAQ Device with a unique data fingerprint able to do experimental data upload to any data repository. This data acquisition device has oboard the INA237 IC and is suited for electric current measurements (amperage) and also electric tension (voltage) from an external power source. See the datasheet of this sensor [here](https://www.ti.com/product/INA237). This IC from Texas Instruments is an ultra-precise digital power monitor with a 16-bit delta-sigma ADC specifically designed for current-sensing applications with common-mode voltage support from –0.3 V to +85 V.
 
 
 <br>
