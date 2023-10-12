@@ -1,0 +1,25 @@
+Drill report for LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237.kicad_pcb
+Created on 10/12/2023 5:34:01 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.400mm  0.0157"  (127 holes)
+    T2  0.600mm  0.0236"  (4 holes)  (with 4 slots)
+    T3  1.600mm  0.0630"  (2 holes)
+
+    Total plated holes count 133
+
+
+Drill file 'LDAD_ABS_ENCLOSURE_52X48_1.69_LCD_TFT_16_bit_INA237-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.650mm  0.0256"  (2 holes)
+
+    Total unplated holes count 2
