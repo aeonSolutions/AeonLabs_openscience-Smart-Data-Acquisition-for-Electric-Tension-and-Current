@@ -45,14 +45,21 @@ If you have a question and looking for an answer, there's a **Discussions** chat
 ### Known Experimental Tests
 This smart data acquisition devices is compatible for the following laboratory experimental tests:
 
-- [NT Build 492](http://www.nordtest.info/wp/1999/11/21/concrete-mortar-and-cement-based-repair-materials-chloride-migration-coefficient-from-non-steady-state-migration-experiments-nt-build-492/): Concrete, mortar and cement-based repair materials: Chloride migration coefficient from non-steady-state migration experiments
+#### [NT Build 492](http://www.nordtest.info/wp/1999/11/21/concrete-mortar-and-cement-based-repair-materials-chloride-migration-coefficient-from-non-steady-state-migration-experiments-nt-build-492/): Concrete, mortar and cement-based repair materials: Chloride migration coefficient from non-steady-state migration experiments
 
 <p align="center">
    <img height="150px" src="https://github.com/aeonSolutions/AeonLabs_openscience-Smart-Data-Acquisition-for-Electric-Tension-and-Current/blob/main/media/nt_build_492_testing.jpeg">
    <img height="150px" src="https://github.com/aeonSolutions/AeonLabs_openscience-Smart-Data-Acquisition-for-Electric-Tension-and-Current/blob/main/media/chloride_test_specimens.jpeg">
 </p>
+
+- Materials needed:
+  - [Stainless Steel Mesh](https://s.click.aliexpress.com/e/_DEX86gx)
+  - [Stainless Steel Hose Clamp](https://s.click.aliexpress.com/e/_DnBocmn)
+  - [ID 16-100mm Silicone Hose](https://s.click.aliexpress.com/e/_Dk4SSMj)
+  - [Vacuum Chamber 3GAL/5GAL 3.5CFM](https://s.click.aliexpress.com/e/_Ddx4dZ1)
+  - [DC power supply 60V 5A](https://s.click.aliexpress.com/e/_DmBCYP1)
   
-- others ...
+#### others ...
 
 
 <br>
