@@ -52,13 +52,7 @@ This smart data acquisition devices is compatible for the following laboratory e
    <img height="150px" src="https://github.com/aeonSolutions/AeonLabs_openscience-Smart-Data-Acquisition-for-Electric-Tension-and-Current/blob/main/media/chloride_test_specimens.jpeg">
 </p>
 
-- Materials & Equiment needed:
-  - [Stainless Steel Mesh](https://s.click.aliexpress.com/e/_DEX86gx)
-  - [Stainless Steel Hose Clamp](https://s.click.aliexpress.com/e/_DnBocmn)
-  - [ID 16-100mm Silicone Hose](https://s.click.aliexpress.com/e/_Dk4SSMj)
-  - [Vacuum Chamber 3GAL/5GAL 3.5CFM](https://s.click.aliexpress.com/e/_Ddx4dZ1)
-  - [DC power supply 60V 5A](https://s.click.aliexpress.com/e/_DmBCYP1)
-  - [Double Wire Plug-In Connector](https://s.click.aliexpress.com/e/_DmNo2CF)
+See [here](https://github.com/aeonSolutions/Open-Scientific-Research/wiki/Rapid-Chloride-Migration-Test-(NT-Build-492)) a description of this experimental test procedure using the NT Build 492. 
 
 <br>
   
