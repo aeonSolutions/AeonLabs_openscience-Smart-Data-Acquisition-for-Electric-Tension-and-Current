@@ -52,14 +52,16 @@ This smart data acquisition devices is compatible for the following laboratory e
    <img height="150px" src="https://github.com/aeonSolutions/AeonLabs_openscience-Smart-Data-Acquisition-for-Electric-Tension-and-Current/blob/main/media/chloride_test_specimens.jpeg">
 </p>
 
-- Materials needed:
+- Materials & Equiment needed:
   - [Stainless Steel Mesh](https://s.click.aliexpress.com/e/_DEX86gx)
   - [Stainless Steel Hose Clamp](https://s.click.aliexpress.com/e/_DnBocmn)
   - [ID 16-100mm Silicone Hose](https://s.click.aliexpress.com/e/_Dk4SSMj)
   - [Vacuum Chamber 3GAL/5GAL 3.5CFM](https://s.click.aliexpress.com/e/_Ddx4dZ1)
   - [DC power supply 60V 5A](https://s.click.aliexpress.com/e/_DmBCYP1)
+
+<br>
   
-#### others ...
+#### other tests ...
 
 
 <br>
