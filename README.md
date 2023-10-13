@@ -58,6 +58,7 @@ This smart data acquisition devices is compatible for the following laboratory e
   - [ID 16-100mm Silicone Hose](https://s.click.aliexpress.com/e/_Dk4SSMj)
   - [Vacuum Chamber 3GAL/5GAL 3.5CFM](https://s.click.aliexpress.com/e/_Ddx4dZ1)
   - [DC power supply 60V 5A](https://s.click.aliexpress.com/e/_DmBCYP1)
+  - [Double Wire Plug-In Connector](https://s.click.aliexpress.com/e/_DmNo2CF)
 
 <br>
   
